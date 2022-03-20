@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="day9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="weather">
+        <input type="text" placeholder="Search..." class="input-search" />
+        <div class="content">
+            <h1 class="name">
+                <span class="city"></span>
+                <span>,</span>
+                <span class="country"></span>
+            </h1>
+            <p class="time"></p>
+            <div class="temperature">
+                <span class="value"></span>
+                <span><sup>o</sup>C</span>
+            </div>
+            <div class="short-desc"></div>
+            <div class="more-desc">
+                <div class="visibility">
+                    <i class="far fa-eye"></i>
+                    <span></span>
+                </div>
+                <div class="wind">
+                    <i class="fas fa-wind"></i>
+                    <span></span>
+                </div>
+                <div class="cloud">
+                    <i class="fas fa-cloud-sun"></i>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+<script src="day9.js"></script>
+</html>
