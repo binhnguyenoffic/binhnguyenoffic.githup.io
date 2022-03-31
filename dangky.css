@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(http://khohinhnen.com/wp-content/uploads/2014/12/hinh-nen-may-tinh-cuc-dep-24.jpg) no-repeat;
+    background-size: 100%;
+  
+  }
+  
+  #main {
+  
+  }
+  
+  #header {
+    height: 100px;
+    background-color: pink;
+  }
+  
+  .logo {
+    width: 100px;
+    float: left;
+    margin: 0 100px;
+  }
+  #nav button{
+    float: right;
+    padding: 0 40px;
+    color: red;
+    font-size: 20px;
+    line-height: 50px;
+    padding-top: 20px;
+    background:  pink;
+    border: none;
+
+  }
+  #nav button:hover{
+    background: yellow;
+    transition: 1.4s;
+  }
+  
+  #nav {
+  
+  }
+  
+  #nav li {
+    display: inline-block;
+  }
+  
+  #nav li a {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 100px;
+    padding: 0 50px;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    transition: 0.25s;
+  }
+  
+  #nav li:hover a{
+    color:black;
+    background-color: yellow;
+  }
+  .thanbai{
+      width: 500px;
+      height: 1000px;
+  }
+  .thanbai fieldset{
+      width: 1000px;
+      height: 700px;
+      margin-left: 300px;
+      margin-top: 100px;
+  }
+  .thanbai legend{
+      text-align: center;
+      font-size: 40px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      border: 2px;
+  }
+  fieldset{
+      border-radius: 20px;
+      color: black;
+  }
+  input{
+      width: 300px;
+      height: 50px;
+      margin: 20px 20px;
+      margin-left: 100px;
+      padding: 5px;
+      border: none;
+  }
+  .sex{
+      display: flex;
+      align-items: center;
+    margin: 10px;
+  }
+  .sex p{
+      margin-left: 30px;
+      margin: 20px 30px;
+  }
+  .sex input{
+      width: 20px;
+      margin-left: 50px;
+      float: left;
+  }
+  .ngaysinh{
+      display: inline-block;
+      margin-left: 50px;
+  }
+  input[type="checkbox"]{
+      width: 12px;
+      transform: translateY(17px);
+      margin-left: 200px;
+  }
+  .dangky{
+      font-size: 20px;
+      margin-left: 300px;
+      width: 300px;
+      
+
+  }
+  .dangky:hover{
+      background: red;
+  }
