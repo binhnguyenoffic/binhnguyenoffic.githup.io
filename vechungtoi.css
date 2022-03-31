@@ -1,0 +1,122 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://image.vovworld.vn/w730/uploaded/vovworld/ovunhuo/2019_07_05/hoian_apcx.jpg) no-repeat;
+    background-size: 100%;
+  
+  }
+  
+  #main {
+  
+  }
+  
+  #header {
+    height: 100px;
+    background-color: pink;
+  }
+  
+  .logo {
+    width: 100px;
+    float: left;
+    margin: 0 100px;
+  }
+  #nav button{
+    float: right;
+    padding: 0 40px;
+    color: red;
+    font-size: 20px;
+    line-height: 50px;
+    padding-top: 20px;
+    background:  pink;
+    border: none;
+
+  }
+  #nav button:hover{
+    background: yellow;
+    transition: 1.4s;
+  }
+  
+  #nav {
+  
+  }
+  
+  #nav li {
+    display: inline-block;
+  }
+  
+  #nav li a {
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 100px;
+    padding: 0 50px;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    transition: 0.25s;
+  }
+  
+  #nav li:hover a{
+    color:black;
+    background-color: yellow;
+  }
+  .than{
+      font-family: 'barlow';
+  }
+  .than{
+      color: whitesmoke;
+  }
+.than h1{
+    padding-top: 100px;
+    margin-left: 300px;
+    font-size: 40px;
+    color: brown;
+    
+}
+.than p{
+    padding-top: 40px;
+    margin-left: 600px;
+   
+}
+
+.gioithieu{
+    padding-top: 70px;
+    width:1000px;
+    margin-left: 300px;
+    font-family: 'Barlow';
+    color: whitesmoke ;
+
+    font-size: 30px;
+}
+.ket{
+    height: 100px;
+    width: 1000px;
+    padding-left: 500px;
+    padding-top: 30px;
+   
+}
+.ket legend{
+    text-align: center;
+    color: aqua;
+}
+.lienhe{
+    padding-left: 230px;
+    font-size: 50px;
+    padding-top: 10px;
+}
+.facebook p{
+    text-align: center;
+    color: blueviolet;
+
+}
+.zalo p{
+    text-align: center;
+    color: chartreuse;
+    
+}
