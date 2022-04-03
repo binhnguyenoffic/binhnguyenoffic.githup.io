@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-top h2{
+  float: left;
+    width: 100px;
+    color: aqua;
+    padding-top: 30px ;
+    margin-left: 30px;
+    font-size: 40px;
+    
+}
+#top li{
+    display: inline;
+    float: right;
+    margin: 30px;
+}
+#top li a{
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+}
+#top li a:hover{
+    background-color: red;
+    transition: 1s;
+}
+.content-than{
+    width: 1000px;
+    padding-top: 100px;
+    margin-left: 250px;
+}
+.content-than img{
+    width: 1100px;
+    height: 600px;
+    transition: 1s;
+}
+
+.content-than img:hover{
+    transform: scaleX(1.05);
+}
+
+.chudeanh {
+    
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-left: 300px;
+   padding-bottom: 30px;
+   position: absolute;
+   bottom: 5px;
+   background: orange;
+   border-radius: 2px;
+   color: white;
+
+}
+.chudeanh h1 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.chudeanh p{
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 40px;
+}
+.chudeanh i{
+    font-size: 50px;
+    float: right;
+    
+}
+.chudeanh1{   
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-left: 570px;
+  
+   padding-bottom: 30px;
+   bottom: 5px;
+   position: absolute;
+   background: linear-gradient(to bottom , violet , blue);
+   color: white;
+}
+.chudeanh1 h1 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.chudeanh1 p{
+    font-size: 20px;
+    margin: 10px;
+  
+}
+.chudeanh1 i{
+    font-size: 50px;
+    float: right;
+    
+}
+.chudeanh2{   
+   
+   width: 200px;
+   height: 300px;
+   float: left;
+   margin-left: 830px;
+  padding-bottom: 30px;
+  bottom: 10px;
+  position: absolute;
+  background: linear-gradient(to bottom , red , pink);
+color: white;
+}
+.chudeanh2 h1 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.chudeanh2 p{
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 30px;
+}
+.chudeanh2 i{
+    font-size: 50px;
+    float: right;
+    
+}
+
+.chudeanh3{   
+   
+   width: 200px;
+   height: 300px;
+   float: left;
+   margin-left: 1110px;
+  padding-bottom: 30px;
+  bottom: 10px;
+  position: absolute;
+  background: violet;
+  color: white;
+}
+.chudeanh3 h1 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.chudeanh3 p{
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 30px;
+}
+.chudeanh3 i{
+    font-size: 50px;
+    float: right;
+    
+}
+.padding-than {
+    width:1500px;
+    height: 500px;
+    margin-left: 100px;
+    padding-top: 90px;
+    float: left;
+}
+.padding-than img{
+    padding-top: 4px;
+    margin-left: 300px;
+    width: 570px;
+    margin: 0 10px;
+    transition: 1s;
+
+}
+.padding-than img:hover{
+    transform: scaleY(1.05);
+}
+.padding{
+    width: 400px;
+    height: 380px;
+    float: left;
+    margin-left: 190px ;
+    padding-top: 30px;
+    background: whitesmoke;
+   
+}
+.padding h1{
+    margin-left: 30px;
+    
+}
+.padding p{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.padding button{
+    margin-left: 150px;
+    font-size: 20px;
+    background:linear-gradient(to right , orange, red);
+    color: white;
+  
+}
+.thanbai2{
+    width: 1300px;
+    height: 900px;
+    margin-left: 270px;
+}
+.padding2{
+    margin-left: 200px ;
+    padding-top: auto;
+    margin: 0 10px;
+    float: left;
+    transition: 1s;
+    
+}
+.padding2 img{
+    width: 600px;
+    height: 390px;
+}
+.padding2:hover{
+   transform: scaleY(1.05);
+}
+.nav {
+    width: 400px;
+    height: 380px;
+    float: left;
+    margin-left: 5px ;
+    padding-top: 30px;
+    background: whitesmoke;
+}
+.nav h1{
+    margin-left: 30px;
+    
+}
+.nav p{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.nav button{
+    margin-left: 150px;
+    font-size: 20px;
+    background:linear-gradient(to right , orange, red);
+    color: white;
+  
+}
+.content-ket{
+    width: 1500px;
+    height: 650px;
+    
+    
+}
+.ket{
+    margin-left: 250px;
+}
+.ket img{
+    width: 1100px;
+    transition: 1s;
+}
+.ket img:hover{
+    transform: scaleX(1.05);
+}
+.content-ket1{
+    position: absolute;
+    width: 600px;
+    height: 649px;
+    margin-left: 300px;
+    color: white;
+    background: linear-gradient(to bottom , red ,pink);
+}
+.content-ket1 h1{
+    margin-left: 40px;
+    margin: 40px;
+}
+.content-ket1 p{
+    margin-left: 30px;
+    font-size: 30px;
+    margin: 50px;
+}
+.content-ket1 button{
+    font-size: 30px;
+    margin-left: 200px;
+    background: white;
+    color: black;
+    
+    
+}
+.padding-ket{
+    width: 1500px;
+    height: 500px;
+    padding-top: 30px;
+}
+.pad-ket{
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 250px;
+    background: orange;
+    color: white;
+    
+}
+.pad-ket h1 {
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.pad-ket ul{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 10px;
+    list-style: none;
+
+    padding-bottom: 40px;
+}
+.pad-ket li i{
+    margin: 0 10px;
+}
+.pad-ket button{
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+.padding-ket img{
+    float: left;
+    width: 600px;
+    margin: 0 20px;
+    transition: 1s;
+}
+.padding-ket img:hover{
+    transform: scaleX(1.05);
+}
+.card{
+    width: 1500px;
+    height: 370px;
+    margin-left: 100px;
+}
+.card__img{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    float: left;
+    padding-top: 40px;
+    background: whitesmoke;
+    
+}
+.card__img img{
+    width: 120px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 80px;
+    float: left;
+    transition: 1s;
+}
+.card__img img:hover{
+    width: 50%;
+  height: 30%;
+  
+}
+.card__img p{
+     margin: 0 60px;
+     font-size: 19px;
+     padding-bottom: 20px;
+}
+.card__img li{
+    list-style: none;
+    margin-left: 100px;
+    font-size: 20px;
+    color: orange;
+}
+.contact-ket{
+    width: 1500px;
+    height: 380px;
+
+}
+.contacts{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    float: left;
+    margin: 0 20px;
+    margin-left: 300px;
+    background: blue;
+    color: white;
+}
+.contact-ket img{
+    width: 650px;
+    height: 400px;
+    float: left;
+    transition: 1s;
+}
+.contact-ket img:hover{
+    transform: scaleY(1.05);
+}
+.contacts h1{
+    margin-left: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.contacts p{
+    font-size: 20px;
+    margin: 20px;
+}
+.contacts i{
+    margin: 0 10px;
+    margin-left: 40px;
+}
+.cuoi
+{
+    padding-top: 100px;
+    margin-left: 400px;
+    font-size: 30px;
+}
