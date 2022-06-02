@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+   
+    
+}
+/* MB ---------------*/
+#header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+
+}
+#header .logo{
+    width: 100px;
+    margin-left: 50px;
+}
+#nav{
+    display: inline-block;
+    float: right;
+   
+}
+#nav > li{
+ display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 100px;
+    padding: 0 24px;
+    display: block;
+    
+}
+#nav li a:hover{
+    background-color: #ccc;
+    color: red;
+}
+#slider{
+    display: flex;
+   
+   
+}
+#slider img{
+    height: 600px;
+    overflow: hidden;
+    
+}
+
+.text-connet .sprice{
+    top: 0;
+    position: absolute;
+    color: #fff;
+    margin-top: 250px;
+    font-size: 50px;
+    left: 30px;
+    text-transform: uppercase;
+    
+}
+.sprice strong{ 
+    margin-left: 650px;
+}
+
+
+/* END MB ------------------*/
+/* MỞ TB2 */
+.btn-trangchu{
+    width: 100%;
+    height: 1000px;
+    background-color: #20232a;
+}
+.btn-trangchu .btn-trang{
+    width: 100%;
+    height:800px;
+    
+}
+.btn-text{
+    margin: 50px 10px 20px 50px ;
+}
+.btn-lienhe{
+    width: 400px ;
+    height: 800px;
+    margin-left: 150px;
+    float: left;
+    margin-top: 30px;
+}
+.btn-lienhe img{
+    width: 350px;
+    height:263px ;
+    margin: 20px;
+}
+.btn-dic{
+    width: 100px;
+    height: 1px;
+    background-color: rgba(255, 98, 0, 0.804);
+    margin: 20px;
+}
+.btn-lienhe input{
+    display: flex;
+    margin: 15px;
+    width: 350px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 2px solid  #ffae00;
+    color: red;
+}
+.btn-lienhe textarea{
+    margin: 10px 15px;
+    border-radius: 10px;
+    color: red;
+    border: 2px solid  #ffae00;
+}
+
+.btn-buton button{
+    width: 249px;
+    height: 49px;
+    margin-left: 50px;
+    transform: skewX(-20deg);
+    background-color :#FFAE00;
+    color: #fff;
+    margin-top: 10px;
+    
+}
+.btn-buton button:hover{
+    background-color: red;
+}
+.btn-img{
+    width: 760px;
+    height: 769px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left:100px;
+}
+.btn-img iframe{
+    width: 760px;
+}
+/* END MB2 */
+
+
+/* MỞ Tb5 */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:#1f2935;
+    background-size: 100%;
+    overflow: hidden;
+}
+ .btn-thongtin{
+    width: 350px;
+    height: 250px;
+    float: left;
+    color: white;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.btn-thongtin i {
+    float: left;
+   padding: 2px;
+}
+.btn-ketnoi{
+    width: 350px;
+  display: inline-block;
+       height: 150px;
+    margin-left:100px;
+    margin-top: 30px;
+    background: url(images/86800438_1036917406679222_657595983059746816_n.jpg) center/cover;
+ 
+}
+.btn-ketnoi img{
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+}
+.btn-ketnoi p{
+   color: white;
+}
+.facebook{
+    margin-top: 30px;
+    margin-left: 10px;
+  
+}
+.facebook button{
+    padding: 3px;
+}
+.facebook a{
+    text-decoration: none;
+    color: #000;
+    border-radius: 4px;
+    
+}
+.facebook .btn-button{
+    float: right;
+}
+.btn-dangky{
+    float: right;
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 30px;
+   
+}
+.btn-dangky input{
+   width: 300px;
+   padding: 10px 0px;
+   border-radius:7px;
+}
+.btn-dangky button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius:7px;
+    background-color: #FFF200;
+}
+.btn-dangky a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    color: #000;
+  
+}
+/* <!-- END TB5 --> */
+.btn-ket{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+}
+.btn-copy p{
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.btn-desi p{
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 800px;
+ 
+
+}

@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+    width: 100%;
+    
+}
+/* MB ---------------*/
+#header{
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+   
+
+}
+#header .logo{
+    width: 100px;
+    margin-left: 50px;
+}
+#nav{
+    display: inline-block;
+    float: right;
+}
+#nav > li{
+ display: inline-block;
+}
+#nav li{
+    position: relative;
+}
+#nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 100px;
+    padding: 0 24px;
+    display: block;
+    
+}
+#nav li a:hover{
+    background-color: #ccc;
+    color: red;
+}
+#slider{
+    display: flex;
+   
+   
+}
+
+.text-connet .sprice{
+    top: 0;
+    position: absolute;
+    color: #fff;
+    margin-top: 300px;
+    font-size: 50px;
+    left: 30px;
+    text-transform: uppercase;
+    
+}
+.text-connet .sprice1{
+    top: 0;
+    position: absolute;
+    color: #ccc;
+    font-size: 18px;
+    margin-top: 550px;
+    left:30px ;
+    opacity: 1;
+    
+    
+   
+}
+.text-connet .sprice-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #000;
+    border: 1px solid #ccc;
+    
+}
+.text-connet .sprice-button:hover{
+    background-color: #E84D3C;
+    color: white;
+}
+.text-connet a{
+    text-decoration: none;
+    color: #ccc;
+}
+/* END MB ------------------*/
+
+/* PHẦN THÂN _____------- */
+.row{
+    width: 100%;
+    background-color:#1f2935;
+
+}
+.tb-connet .inner{
+    padding: 50px 5px;
+    background-color: #E84D3C;
+    width: 250px;
+    height: 190px;
+    text-align: center;
+    float: left;
+    margin: 4px 1px 1px ;
+    cursor: pointer;
+}
+.tb-connet .inner p{
+    color: white;
+    line-height: 50px;
+}
+.tb-connet .dic{
+    width: 100px;
+    height: 7px;
+    background-color:  #E84D3C;
+    margin-bottom: 20px;
+}
+
+.tb-connet .kick{
+    width:600px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    float: left;
+    
+}
+.tb-connet .kick p{
+    font-size: 15px;
+}
+.kick .tb-button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #E84D3C;
+   
+}
+.kick .tb-button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.tb-ider .tb-about{
+    
+    margin-top: 80px;
+    margin-left: 250px;
+}
+/* END PHẦN THÂN */
+
+/* Mở TB2 */
+.content{
+    height: 100%;
+    background-color: #20232a;
+    display: flex;
+
+}
+
+.bt-content .dic{
+    width: 100px;
+    height: 7px;
+    background-color: #E84D3C;
+    margin-bottom: 20px;
+}
+.bt-content .btn-context{
+    width: 1150px;   
+    color: white;
+    margin-left: 200px;
+    margin-top: 80px ;
+    letter-spacing: 2px;
+    
+}
+.bt-content strong{
+    opacity: .5;
+}
+.bt-content .btn-img{
+    width: 474px;
+    height: 232px;
+    border: 1px solid red;
+    margin-left: 200px;
+    margin-top: 20px;
+    float: left;
+    background-color: #E84D3C;
+}
+.btn-img img{
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-top: 3px;
+    margin-left: 3px;
+    padding: 7px;
+}
+.btn-img .btn-h3{
+    font-weight: 500;
+    margin-top: 10px;
+    margin: 15px;
+    
+
+}
+.bt-content .btn-imgg{
+    width: 1150px;
+    height: 232px;
+    border: 1px solid red;
+    margin-left: 200px;
+    margin-top: 50px;
+    float: left;
+    background-color: #E84D3C;
+}
+.btn-imgg img{
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 3px;
+    padding: 7px;
+}
+.btn-imgg .btn-h3{
+    font-weight: 500;
+    margin-top: 10px;
+    margin: 15px;
+    
+
+}
+/* Kết TB2 ---------------------- */
+
+
+
+/* MỞ TB3----------------------- */
+.btn-module{
+    width: 100%;
+    height: 1000px;
+    background-color:#1f2935;
+    display: flex;
+}
+.btn-module .btn-module-now{
+    width: 450px;
+    height: 470px;
+    margin-left: 300px;
+    margin-top: 300px;
+    
+}
+.btn-module-now .btn-colum{
+    float: left;
+   
+}
+.btn-module-now .btn-colum h1{
+    font-size: 30px;
+}
+.btn-colum .btn-dic{
+   width: 100px;
+   height: 7px;
+   background-color: #E84D3C;
+   margin-bottom: 15px;
+}
+.btn-colum .sprice-button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #E84D3C;
+   
+}
+.btn-colum .sprice-button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.btn-colid img{
+    margin-top: 100px;
+    margin-left: 50px   ;
+    transition: 0.5s;
+}
+.btn-colid img:hover{
+    transform: scale(1.01);
+}
+
+/* Mở Tb4 */
+.btn-vlaue{
+    width: 100%;
+    height: 700px;
+    background-color:  #20232a;
+    display: flex
+}
+.btt-input .btn-dic{
+    width: 100px;
+    height: 7px;
+    background-color: #E84D3C;
+    margin-bottom: 15px;
+ }
+.btt-title .btt-input{
+    width: 100%;
+    height: 100px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.btn-post{
+    margin-left: 300px;
+    display: flex;
+}
+.btn-post img{
+    width: 275px;
+    height: 471px;
+    margin: 20px;
+    
+    
+}
+/* END tb4 */
+
+/* MỞ Tb5 */
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:#1f2935;
+    background-size: 100%;
+    overflow: hidden;
+}
+ .btn-thongtin{
+    width: 350px;
+    height: 250px;
+    float: left;
+    color: white;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.btn-thongtin i {
+    float: left;
+   padding: 2px;
+}
+.btn-ketnoi{
+    width: 350px;
+  display: inline-block;
+       height: 150px;
+    margin-left:100px;
+    margin-top: 30px;
+    background: url(images/86800438_1036917406679222_657595983059746816_n.jpg) center/cover;
+ 
+}
+.btn-ketnoi img{
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+}
+.btn-ketnoi p{
+   color: white;
+}
+.facebook{
+    margin-top: 30px;
+    margin-left: 10px;
+  
+}
+.facebook button{
+    padding: 3px;
+}
+.facebook a{
+    text-decoration: none;
+    color: #000;
+    border-radius: 4px;
+    
+}
+.facebook .btn-button{
+    float: right;
+}
+.btn-dangky{
+    float: right;
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 30px;
+   
+}
+.btn-dangky input{
+   width: 300px;
+   padding: 10px 0px;
+   border-radius:7px;
+}
+.btn-dangky button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius:7px;
+    background-color: #FFF200;
+}
+.btn-dangky a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 12px;
+    color: #000;
+  
+}
+/* <!-- END TB5 --> */
+.btn-ket{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+}
+.btn-copy p{
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.btn-desi p{
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 10px;
+    margin-left: 800px;
+ 
+
+}
