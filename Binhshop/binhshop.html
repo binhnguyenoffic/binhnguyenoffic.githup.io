@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/binhshop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+      />    
+
+    <title>Bình Shop</title>
+</head>
+
+<body>
+    <!-- Header -->
+
+    <header class="header">
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars" id="menubtn"></i>
+        </div>
+
+
+        <nav class="navbar">
+            <div class="close-btn" hidden>
+                <i class="fa-solid fa-xmark" id="closebtn"></i>
+            </div>
+            <div class="login">
+                <a href="" ><button class="btn">Đăng Nhập</button></a>
+            </div>
+            <li><a href="" class="nav-link">Nữ</a> <i class="fa-solid fa-plus" id="addbtn"></i>
+                <ul class="menu-list">
+                    <div class="menu-list-btn">
+
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="color: red; font-weight: bolder;">Áo dài tết</a></li>
+                                <li><a href="">Merino Wool</a></li>
+                                <li><a href="">Hàng mới về</a></li>
+                                <li><a href="">TIMELESS</a></li>
+                                <li><a href="">Glamour Night</a></li>
+                                <li><a href="">IVY you</a></li>
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">Áo</a></li>
+                                <li><a href="">Áo thun</a></li>
+                                <li><a href="">Áo sơ mi</a></li>
+                                <li><a href="">Áo peplum</a></li>
+                                <li><a href="">Áo kiểu</a></li>
+                                <li><a href="">Áo croptop</a></li>
+                                <li><a href="">Áo len</a></li>
+    
+                            </div>
+                        </div>
+    
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">Áo Khoác</a></li>
+                                <li><a href="">Áo khoác</a></li>
+                                <li><a href="">Áo dạ</a></li>
+                                <li><a href="">Áo dạ lông cừu</a></li>
+                                <li><a href="">Áo dạ lông cừu</a></li>
+                                <li><a href="">Áo phao</a></li>
+                                <li><a href="">Áo măng tô</a></li>
+                                <li><a href="">Áo vest/ blazer</a></li>
+    
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">QUẦN & JUMPSUIT</a></li>
+                                <li><a href="">Quần jeans</a></li>
+                                <li><a href="">Quần dài</a></li>
+                                <li><a href="">Quần lửng/ short</a></li>
+                                <li><a href="">Quần baggy</a></li>
+                                <li><a href="">Jumpsuit</a></li>
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">CHÂN VÁY</a></li>
+                                <li><a href="">Chân váy</a></li>
+                                <li><a href="">Chân váy xếp ly</a></li>
+                                <li><a href="">Chân váy chữ A</a></li>
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">ĐẦM</a></li>
+                                <li><a href="">Đầm</a></li>
+                                <li><a href="">Đầm maxi/ voan</a></li>
+                                <li><a href="">Đầm thun</a></li>
+                                <li><a href="">Senora - Đầm dạ hội</a></li>
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">PHỤ KIỆN</a></li>
+                                <li><a href="">Túi/ ví</a></li>
+                                <li><a href="">Giày/dép & Sandals</a></li>
+                                <li><a href="">Phụ kiện</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li><a href="" class="nav-link">Nam </a> <i class="fa-solid fa-plus" id="addbtn"></i>
+                <ul class="menu-list">
+                    <div class="menu-list-btn">
+
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="color: red; font-weight: bolder;">Áo dài tết</a></li>
+                                <li><a href="">Merino Wool</a></li>
+                                <li><a href="">Hàng mới về</a></li>
+                                <li><a href="">TIMELESS</a></li>
+                                <li><a href="">Glamour Night</a></li>
+                                <li><a href="">IVY you</a></li>
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">Áo</a></li>
+                                <li><a href="">Áo thun</a></li>
+                                <li><a href="">Áo sơ mi</a></li>
+                                <li><a href="">Áo peplum</a></li>
+                                <li><a href="">Áo kiểu</a></li>
+                                <li><a href="">Áo croptop</a></li>
+                                <li><a href="">Áo len</a></li>
+    
+                            </div>
+                        </div>
+    
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">Áo Khoác</a></li>
+                                <li><a href="">Áo khoác</a></li>
+                                <li><a href="">Áo dạ</a></li>
+                                <li><a href="">Áo dạ lông cừu</a></li>
+                                <li><a href="">Áo dạ lông cừu</a></li>
+                                <li><a href="">Áo phao</a></li>
+                                <li><a href="">Áo măng tô</a></li>
+                                <li><a href="">Áo vest/ blazer</a></li>
+    
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">QUẦN & JUMPSUIT</a></li>
+                                <li><a href="">Quần jeans</a></li>
+                                <li><a href="">Quần dài</a></li>
+                                <li><a href="">Quần lửng/ short</a></li>
+                                <li><a href="">Quần baggy</a></li>
+                                <li><a href="">Jumpsuit</a></li>
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">CHÂN VÁY</a></li>
+                                <li><a href="">Chân váy</a></li>
+                                <li><a href="">Chân váy xếp ly</a></li>
+                                <li><a href="">Chân váy chữ A</a></li>
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">ĐẦM</a></li>
+                                <li><a href="">Đầm</a></li>
+                                <li><a href="">Đầm maxi/ voan</a></li>
+                                <li><a href="">Đầm thun</a></li>
+                                <li><a href="">Senora - Đầm dạ hội</a></li>
+                            </div>
+                        </div>
+    
+                        <div class="menu-list-item">
+                            <div>
+                                <li><a href="" style="font-size: 1.6rem; font-weight: bolder;">PHỤ KIỆN</a></li>
+                                <li><a href="">Túi/ ví</a></li>
+                                <li><a href="">Giày/dép & Sandals</a></li>
+                                <li><a href="">Phụ kiện</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li><a href="" class="nav-link">Trẻ Em </i></a><i class="fa-solid fa-plus" id="addbtn"></i>
+            </li>
+            <li><a href="" class="nav-link">Sale </a><i class="fa-solid fa-plus" id="addbtn"></i></li>
+            <li><a href="" class="nav-link">Bộ Sưu tập </i></a><i class="fa-solid fa-plus" id="addbtn"></i></li>
+            <li><a href="" class="nav-link">LifeStyle </i></a><i class="fa-solid fa-plus" id="addbtn"></i></li>
+            <li><a href="" class="nav-link">Về Chúng tôi </i></a><i class="fa-solid fa-plus" id="addbtn"></i></li>
+        </nav>
+        <div class="logo">
+            <a href=""> <img src="img/Bình.png" alt=""></a>
+        </div>
+
+        <div class="search">
+            <div class="search-btn-icons">
+                <i class="fa-solid fa-magnifying-glass" id="search-icons"></i>
+                <div class="search-btn">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm">
+                </div>
+            </div>
+            <div class="icons">
+                <a href=""><i class="fa-solid fa-headphones"></i></a>
+                <a href=""><i class="fa-regular fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+        </div>
+
+
+    </header>
+    <!-- END header -->
+
+    <!-- SECTION -->
+    <section class="section">
+        <div class="section-sale">
+            <div class="section-saletoup">
+                <a href=""><span>SALE TO UP 75%</span></a>
+            </div>
+            <div class="section-saletoup-center" >
+                <a href=""><span>SALE 60%%</span></a>
+            </div>
+            <div class="section-saletoup-right">
+                <a href=""><span>SALE 55%</span></a>
+            </div>
+        </div>
+
+        <div class="item-banner swiper">
+            <div class="item-list swiper-wrapper">
+                <div class="item-banner-list swiper-slide ">
+                    <a href="">
+                        <img src="img/0df19551f0ae0598381bce05ea115d8a.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item-banner-list swiper-slide">
+                    <a href="">
+                        <img src="img/banner2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item-banner-list swiper-slide ">
+                    <a href="">
+                        <img src="img/0df19551f0ae0598381bce05ea115d8a.jpg" alt="">
+                    </a>
+                </div>
+                <div class="item-banner-list swiper-slide">
+                    <a href="">
+                        <img src="img/banner2.jpg" alt="">
+                    </a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="sale-top-up75">
+            <div class="saletoup">
+                <h1>SALE UP TO 75%</h1>
+            </div>
+
+            <div class="introduce-sale">
+                <ul>
+                    <li class="introduce-sale-tab">Bình moda</li>
+                    <li class="introduce-sale-tab">Bình men</li>
+                    <li class="introduce-sale-tab">Bình kids</li>
+                </ul> 
+            </div>
+            <div class="swiper shop-container ">
+                <div class="container swiper-wrapper">
+                    <div class=" swiper-slide container-ivy">
+                        <div class="shopping">
+                            <a href="">
+                                <img src="img/ao1.jfif" alt="">
+                               
+                            
+                            </a>
+                            
+                        </div>
+                        <div class="shopping2">
+                            <div class="img-shop">
+                                <img src="img/logo1.png" alt="">
+                                <img src="img/logo2.png" alt="">
+                                
+                            </div>
+                            <div class="heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+                        <div class="shopping-text">
+                            <a href="">Áo Polo phối kẻ</a>
+                        </div>
+
+                        <div class="shop-heading">
+                            <div class="shop-heading-text">
+                                <p>395.000đ <span>790.000đ</span></p>
+                            </div>
+                             <div class="bags">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-ivy swiper-slide">
+                        <div class="shopping">
+                            <a href=""><img src="img/ao1.jfif" alt=""></a>
+                        </div>
+                        <div class="shopping2">
+                            <div class="img-shop">
+                                <img src="img/logo1.png" alt="">
+                                <img src="img/logo2.png" alt="">
+                            </div>
+                            <div class="heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+                        <div class="shopping-text">
+                            <a href="">Áo Polo phối kẻ</a>
+                        </div>
+
+                        <div class="shop-heading">
+                            <div class="shop-heading-text">
+                                <p>395.000đ <span>790.000đ</span></p>
+                            </div>
+                             <div class="bags">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container-ivy swiper-slide">
+                        <div class="shopping">
+                            <a href=""><img src="img/ao1.jfif" alt=""></a>
+                        </div>
+                        <div class="shopping2">
+                            <div class="img-shop">
+                                <img src="img/logo1.png" alt="">
+                                <img src="img/logo2.png" alt="">
+                            </div>
+                            <div class="heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+                        <div class="shopping-text">
+                            <a href="">Áo Polo phối kẻ</a>
+                        </div>
+
+                        <div class="shop-heading">
+                            <div class="shop-heading-text">
+                                <p>395.000đ <span>790.000đ</span></p>
+                            </div>
+                             <div class="bags">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container-ivy swiper-slide">
+                        <div class="shopping">
+                            <a href=""><img src="img/ao1.jfif" alt=""></a>
+                        </div>
+                        <div class="shopping2">
+                            <div class="img-shop">
+                                <img src="img/logo1.png" alt="">
+                                <img src="img/logo2.png" alt="">
+                            </div>
+                            <div class="heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+                        <div class="shopping-text">
+                            <a href="">Áo Polo phối kẻ</a>
+                        </div>
+
+                        <div class="shop-heading">
+                            <div class="shop-heading-text">
+                                <p>395.000đ <span>790.000đ</span></p>
+                            </div>
+                             <div class="bags">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container-ivy swiper-slide">
+                        <div class="shopping">
+                            <a href=""><img src="img/ao1.jfif" alt=""></a>
+                        </div>
+                        <div class="shopping2">
+                            <div class="img-shop">
+                                <img src="img/logo1.png" alt="">
+                                <img src="img/logo2.png" alt="">
+                            </div>
+                            <div class="heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+
+                        <div class="shopping-text">
+                            <a href="">Áo Polo phối kẻ</a>
+                        </div>
+
+                        <div class="shop-heading">
+                            <div class="shop-heading-text">
+                                <p>395.000đ <span>790.000đ</span></p>
+                            </div>
+                             <div class="bags">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+     <!-- SECTION END -->
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="js/binhshop.js"></script>
+
+</html>
